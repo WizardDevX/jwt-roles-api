@@ -8,7 +8,7 @@
 		"check": "tsc",
 		"build": "npm run check && babel src -d dist -x \".ts\"",
 		"start": "node dist/index.js",
-		"test": "npm run check && jest --detectOpenHandles",
+		"test": "npm run check && jest",
 		"test:watch": "jest --watchAll"
 	},
 	"keywords": [],
